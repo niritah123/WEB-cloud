@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section{
+   display: block; 
+}
+header{
+    width: 100%;
+}
+#logo{
+    background-image: url("../images/Star.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 88px;
+    width: 88px;
+    display: block;
+}
