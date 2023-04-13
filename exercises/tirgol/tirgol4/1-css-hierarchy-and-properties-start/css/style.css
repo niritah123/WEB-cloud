@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+body {
+    background-color: antiquewhite;
+}
+section > section{
+display: flex;
+}
+section> section> div{
+    margin: 5px;
+}
+.circle {
+    background-color:darkcyan;
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.square {
+    background-color:hotpink;
+    height: 100px;
+    width: 100px;
+}
+
+.triangle {
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid lightskyblue;
+}
