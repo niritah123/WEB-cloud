@@ -49,8 +49,8 @@ function res(num) {
                 lettSeen.pop().find(".lett").hide();
             }
             else{                           
-                lettSeen[0].closest(".box").css("background-color", "#32d0dbcb");
-                lettSeen[1].closest(".box").css("background-color", "#32d0dbcb");
+                lettSeen[0].closest(".box").css("background-color", "#2abd25");
+                lettSeen[1].closest(".box").css("background-color", "#2abd25");
                 $(lettSeen.pop()).off("click");
                 $(lettSeen.pop()).off("click");
             }
