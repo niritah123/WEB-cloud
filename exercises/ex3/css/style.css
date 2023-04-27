@@ -301,11 +301,48 @@ header,main,footer,nav,aside,section,div{
 }
 
 /* LAYOUTS3 */
+.box {
+    background-color: #000000;
+    margin-bottom: 230px;
+    margin-left: 130px;
+    position: relative;
+
+}
+
+.lett{
+        display: none;
+        color: white;
+        text-align: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+}
+
+.layout3 main {
+    width: 964px;
+    align-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.mainDetails {
+    width: 964px;
+    position: absolute;
+    left: 306px;
+    top: 246px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 .layout3 .blackRectangle {
     position: absolute;
     margin-top: 21px;
     margin-left: 1336px;
+    transition: background-color 0.2s ease;
+}
+.layout3 .blackRectangle:hover {
+    background-color: #6e6b6b;
 }
 #wrapper {
     width: 1440px;
@@ -372,6 +409,10 @@ header,main,footer,nav,aside,section,div{
     height: 41px;
     margin-top: 463px;
 }
+.box:hover{
+    background-color: #858484;
+    transition: background-color 0.4s ease;
+}
 @media only screen and (max-width: 416px) {
     .layout3 header {
         width: 100%;
@@ -385,7 +426,7 @@ header,main,footer,nav,aside,section,div{
         width: 100%;
         height: 105px;
     }
-    .layout3 .blackRec {
+    .layout3 .blackRectangle {
         position: absolute;
         margin-top: 21px;
         margin-left: calc(100% - 102px - 2vw);
@@ -427,5 +468,25 @@ header,main,footer,nav,aside,section,div{
         
         margin: 1346px auto;
     }
+    .box {
+        background-color: #000000;
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+.layout3 main {
+
+    width: 100%;
+    align-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.mainDetails {
+        width: 100%;
+        position: absolute;
+        left: 10px;
+        top: 246px;
+        display: flex;
+        flex-wrap: wrap;
+}
     
 }
