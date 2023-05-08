@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: yellow;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-control {
+    background-color: gray;
+    color: yellow;
+}
+
+.btn-primary {
+    background-color: yellow;
+    color: black;
+}

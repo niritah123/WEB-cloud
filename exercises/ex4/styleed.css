@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+		background-color: #a4d4ff;
+	  
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+.frame {
+background-color: rgb(217, 222, 222);
+	border: 2px solid #000000;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+.shirt-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+#shirt-image {
+	max-width: 300px;
+}
+#shirt-link {
+  display: block;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.color-selector {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	right: 0;
+}
+
+.color-option {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+#black {
+	background-color: #000000;
+}
+
+#white {
+	background-color: #ffffff;
+}
+
+#orange {
+	background-color: #ff8c00;
+}
