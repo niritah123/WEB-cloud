@@ -19,15 +19,15 @@
             method="get">
             <h3>Welcome to Grindr </h3>
             <fieldset>
-                <input placeholder="Full name" type="text" class="form-control" name="fullName" value="" pattern="[0-9]+[A-Za-z]+"
+                <input placeholder="Full name" type="text" class="form-control" name="fullName" value="" pattern="([^\s]+\s)+[^\s]+"
                     title="A space is required between first name and last name">
             </fieldset>
             
 
             <fieldset>
-                <input placeholder="Password" type="password" name="pass" value="" pattern="[a-z0-9]{5,10}"
-                    class="form-control"
-                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                <input placeholder="Password" type="password" name="pass" value="" pattern="[0-9a-zA-Z]+"
+                    class="form-control" minlength="5"
+                    title="Must contain only number or uppercase or lowercase letter, Must include at least 5 characters">
             </fieldset>
 
             <fieldset>
@@ -66,7 +66,7 @@
                         </div>
                         <div class="row form-check">
                             <input type="checkbox" name="interests[]" value="hand" class="col-1" class="form-control">
-                            <label class="col-2">hand</label>
+                            <label class="col-2">hands</label>
                         </div>
                     </section>
                 </fieldset>
@@ -83,7 +83,7 @@
                 </div>
                 0.0
                 <input type="range" name="temper" min="0.0" max="0.30" step="0.01" onchange="changeCircleSize()"
-                    tabindex="6" />
+                    />
                 0.30
 
 
