@@ -1,0 +1,19 @@
+{  
+    "bookcategory":   
+     [  
+        {  
+            "id": 1, 
+           "category":"Romance novel"
+            
+        },  
+        {  
+            "id": 2,   
+            "category":"Memoir"
+        },  
+        {  
+            "id": 3,   
+            "category":"Thriller"
+        }  
+    ]  
+    
+}
